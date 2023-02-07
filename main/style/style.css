@@ -1,0 +1,165 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.wraper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav_bar {
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+.nav_category {
+    padding-top: 16px;
+}
+
+.hr-1 {
+    position: sticky;
+    top: 75px;
+}
+
+
+.main_news {
+    border: 3px solid rgb(209, 9, 9);
+    margin: 24px auto;
+    background: #fff;
+    cursor: pointer;
+}
+
+.main_news_container {
+    border: 3px solid rgb(209, 9, 9);
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 2px 2px;
+
+}
+
+.main_news_title {
+    padding: 8px 10px;
+    color: rgb(62, 61, 66);
+    margin-left: 9px;
+    margin-bottom: 55px;
+
+}
+
+.hot_title {
+    color: rgba(209, 9, 9, 0.871);
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.today_hot_news {
+    margin-bottom: 1px;
+
+}
+
+hr {
+    color: rgba(224, 220, 220, 0.29);
+}
+
+.hot_news_conteiner {
+    margin-bottom: 22px;
+}
+
+.img_news1 {
+    float: left;
+    height: 221px;
+    display: block;
+    margin-left: auto;
+    margin-right: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+}
+
+.news_blok1,
+.news_blok2 {
+    display: flex;
+}
+
+.news1,
+.news2,
+.news3,
+.news4,
+.news5,
+.news6,
+.news7,
+.news8 {
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(51, 50, 50);
+    display: block;
+    justify-content: flex-end;
+    margin-top: 16px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.menu_upBar {
+    display: flex;
+}
+
+.logo_news {
+    height: 76px;
+}
+
+.nav_category {
+    display: flex;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.main_page,
+.sport_news_page,
+.lifestyle_page,
+.humor_content {
+    margin-left: 56px;
+    color: rgb(62, 61, 66);
+}
+
+.contacts {
+    height: 280px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 12px 24px;
+    font-size: 12px;
+    background: linear-gradient(180deg, rgba(215, 213, 213, 0) 39.34%, #969696 100%);
+}
+
+.text_news1 {
+    margin-bottom: 16px;
+    margin-top: 22px;
+    margin-bottom: 42px;
+    padding: 8px 16px;
+}
+
+.discrp_news_1 {
+    color: rgb(62, 61, 66);
+}
+
+
+a.text:active,
+/* активная/посещенная ссылка */
+a.text:hover,
+/* при наведении */
+a.text {
+    text-decoration: none;
+    color: rgb(213, 10, 10);
+}
