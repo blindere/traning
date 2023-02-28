@@ -16,6 +16,11 @@ body {
     background-color: #fff;
     position: sticky;
     top: 0px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 
 }
 
@@ -162,4 +167,55 @@ a.text:hover,
 a.text {
     text-decoration: none;
     color: rgb(213, 10, 10);
+}
+
+/*стили для кнопки всплывающего окна*/
+.contact_button {
+    position: left;
+}
+
+.buttom_contakt_popup {
+    float: right;
+    position: absolute;
+    top: 38px;
+    right: 15px;
+    background-color: rgb(237, 194, 40);
+    border-radius: 8px;
+    color: #fff;
+}
+
+.popup {
+    display: none;
+    border: 1px solid rgb(51, 50, 50);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup_content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }

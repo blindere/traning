@@ -11,6 +11,14 @@
         rel="stylesheet">
     <title>Придуманные новoсти</title>
     <link rel="stylesheet" href="style/style.css">
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
 </head>
 
 <body>
@@ -24,6 +32,19 @@
                 <div class="lifestyle_page">Стиль жизни</div>
                 <div class="humor_content">Юмор и шутки</div>
 
+                <div class="contact_button">
+                    <button onclick="openPopup()" class="buttom_contakt_popup">Открыть контакты</button>
+                    <div id="popup" class="popup">
+                        <div class="popup_content">
+                            <span class="close" onclick="closePopup()">&times;</span>
+                            <h1 class="contact_dis">Мои контакты</h1>
+                            <p class="conatct">
+                                Блиндер Евгений Сергеевич
+                            </p>
+                            <p mailto:>blindere@icloud.com</p>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
